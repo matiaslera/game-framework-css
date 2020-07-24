@@ -3,29 +3,4 @@ body{
 
 }
 
-/* input[type="checkbox"] {display: none;}
- input[type="checkbox"] + p {display:none; margin-left:1em;}
-input[type="checkbox"]:checked + p {display:block;} */
 
-/* a[href="#a"]{display: block;}
-a[href="#a"]+ p{display: none; margin-left:1em;}
-a[href="#a"]:hover + p{display:block;} */
-
-/* a[href="#a"]+ input[type="checkbox"] {display: none;}
-a[href="#a"] +input[type="checkbox"] + p {display:none; margin-left:1em;}
-a[href="#a"] +input[type="checkbox"]:checked + p {display:block;} */
-
-.detalle{
-    display: none;
-}
-
-/* .toggle {display: block;}
-.toggle-label { color: blue; text-decoration: underline; }
-.toggle-label:hover {text-decoration: none; cursor: pointer; }
-#Clicker {display: none;} */
-#Clicker:checked + .toggle {display: block;}
-
-#algo +.toggle {
-    display: none;
-}
-#Clicker:checked + #algo .toggle {display: block;}
